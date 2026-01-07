@@ -117,17 +117,18 @@ This installs:
    Debug | x64
    ```
 4. Build the project:
-  ```bash
-  Build → Rebuild Solution
-  ``` 
-5. Run the server:
+
+   ```bash
+   Build → Rebuild Solution
+   ``` 
+6. Run the server:
    ```bash
    ▶ Local Windows Debugger
    ```
-   If successful, you will see:
-   ```bash
-   WebSocket server is running on port 12345...
-   ```
+If successful, you will see:
+ ```bash
+ WebSocket server is running on port 12345...
+ ```
 
 ⚠️ **Keep the server window open**
 
