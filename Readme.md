@@ -69,10 +69,86 @@ Each algorithm sends **real-time sorting steps** from the server to the browser.
 
 ---
 
-## ▶️ How to Run the Project
 
-### 1️⃣ Run Backend Server (C++)
-- Open project in **Visual Studio**
-- Set platform to **x64**
-- Build and run `server.cpp`
-- Server runs on:
+## ▶️ Step-by-Step Guide to Run the Project
+
+This project consists of **two parts**:
+1. **Backend (C++ WebSocket Server)**
+2. **Frontend (Web-based Visualization)**
+
+Follow the steps below carefully.
+
+---
+
+### 🔹 Step 1: Prerequisites
+
+Make sure the following are installed on your system:
+
+- ✅ **Windows OS**
+- ✅ **Visual Studio 2022**
+- ✅ **Git**
+- ✅ **vcpkg (C++ package manager)**
+- ✅ **Modern Browser (Chrome / Edge)**
+
+---
+
+### 🔹 Step 2: Install Required C++ Libraries (One Time Only)
+
+Open **PowerShell as Administrator** and run:
+
+```powershell
+cd C:\vcpkg
+.\vcpkg install boost
+.\vcpkg install nlohmann-json
+.\vcpkg integrate install
+```
+This installs:
+ - **Boost.Asio**
+ - **Boost.Beast**
+ - **nlohmann/json**
+
+###🔹Step 3: Run the Backend Server (C++)
+
+1. **Open Visual Studio 2022**
+2. **Open the project folder**
+3. **Make sure configuration is set to:**
+   ```bash
+   Debug | x64
+   ```
+4. Build the project:
+  ```bash
+  Build → Rebuild Solution
+  ``` 
+5. Run the server:
+   ```bash
+   ▶ Local Windows Debugger
+   ```
+   If successful, you will see:
+   ```bash
+   WebSocket server is running on port 12345...
+   ```
+   ⚠️ **Keep the server window open**
+
+###🔹 Step 4: Run the Frontend (Browser)
+
+1. Navigate to the frontend folder
+2. Open index.html in Chrome or Edge
+3. The UI will load automatically
+
+###🔹 Step 5: Use the Visualizer
+1. Select a sorting algorithm:
+   - Bubble Sort
+   - Quick Sort
+   - Insertion Sort
+   - Selection Sort
+   - Merge Sort
+2. Click Start
+3. Watch the sorting process step-by-step
+4. Use Pause or Reset if needed
+
+### ✅ Output
+
+- Sorting bars animate in real time
+- Server sends sorting steps via WebSocket
+- Visualization updates instantly in the browser
+
