@@ -107,11 +107,12 @@ This installs:
  - **Boost.Beast**
  - **nlohmann/json**
 
-###🔹Step 3: Run the Backend Server (C++)
+### 🔹 Step 3: Run the Backend Server (C++)
 
 1. **Open Visual Studio 2022**
 2. **Open the project folder**
-3. **Make sure configuration is set to:**
+3. **Make sure the configuration is set to:**
+
    ```bash
    Debug | x64
    ```
@@ -127,28 +128,36 @@ This installs:
    ```bash
    WebSocket server is running on port 12345...
    ```
-   ⚠️ **Keep the server window open**
 
-###🔹 Step 4: Run the Frontend (Browser)
+⚠️ **Keep the server window open**
+
+---
+
+### 🔹 Step 4: Run the Frontend (Browser)
 
 1. Navigate to the frontend folder
-2. Open index.html in Chrome or Edge
+2. Open `index.html` in **Chrome** or **Edge**
 3. The UI will load automatically
 
-###🔹 Step 5: Use the Visualizer
+---
+
+### 🔹 Step 5: Use the Visualizer
+
 1. Select a sorting algorithm:
-   - Bubble Sort
-   - Quick Sort
-   - Insertion Sort
-   - Selection Sort
-   - Merge Sort
-2. Click Start
+   - Bubble Sort  
+   - Quick Sort  
+   - Insertion Sort  
+   - Selection Sort  
+   - Merge Sort  
+2. Click **Start**
 3. Watch the sorting process step-by-step
-4. Use Pause or Reset if needed
+4. Use **Pause** or **Reset** if needed
+
+---
 
 ### ✅ Output
 
-- Sorting bars animate in real time
-- Server sends sorting steps via WebSocket
-- Visualization updates instantly in the browser
+- Sorting bars animate in real time  
+- Server sends sorting steps via WebSocket  
+- Visualization updates instantly in the browser  
 
