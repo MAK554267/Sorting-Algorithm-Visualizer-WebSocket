@@ -162,3 +162,22 @@ If successful, you will see:
 - Server sends sorting steps via WebSocket  
 - Visualization updates instantly in the browser  
 
+<div align="center">
+
+**🎓 Developed for Advanced Data Structures & Algorithms Learning**
+
+*Understanding sorting algorithms through real-time visualization and hands-on implementation*
+
+[![University](https://img.shields.io/badge/Institution-University_of_Wah-blue.svg)](#)
+[![Department](https://img.shields.io/badge/Department-Cybersecurity-purple.svg)](#)
+[![Course](https://img.shields.io/badge/Course-Data_Structures_&_Algorithms-teal.svg)](#)
+[![Semester](https://img.shields.io/badge/Semester-3rd-green.svg)](#)
+[![Project](https://img.shields.io/badge/Type-Visualization_Project-orange.svg)](#)
+
+---
+
+**"Visualize. Understand. Master Sorting Algorithms."**
+
+**⭐ Star this repository if it helped your DSA learning journey!**
+
+</div>
