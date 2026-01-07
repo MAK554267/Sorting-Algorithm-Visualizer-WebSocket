@@ -162,6 +162,8 @@ If successful, you will see:
 - Server sends sorting steps via WebSocket  
 - Visualization updates instantly in the browser  
 
+---
+
 <div align="center">
 
 **🎓 Developed for Advanced Data Structures & Algorithms Learning**
